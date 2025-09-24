@@ -120,7 +120,26 @@ import math
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+# try:
+#     c = float(input("Digite um valor em C° para convertermos para F°: "))
+#     f = (c * 9/5) + 32
+#     print(f"{c}C° é igual a {f}F°")
+# except ValueError:
+#     print("Por favor digite um número válido.")
+
 # 22: Verificador de Palíndromo
+# entrada = input("Digite uma palavra ou frase: ")
+
+# if isinstance(entrada, str): 
+#     formatado = entrada.replace("", "").lower()
+#     if formatado == formatado[::-1]:
+#         print("É um polídromo.")
+#     else:
+#         print("Não é um polídromo.")
+# else:
+#     print("Entrada inválida. Por favor, digite uma palavra ou frase.")
 # 23: Calculadora Simples
+
 # 24: Classificador de Números
+
 # 25: Conversão de Tipo com Validação
